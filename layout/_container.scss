@@ -1,0 +1,15 @@
+.header-content,
+.hero-container,
+.furniture-for-content,
+.special-offers-content,
+.catalog-content,
+.catalog-products-content,
+.footer-content,
+.cart-grid {
+  @extend %container;
+}
+
+.products-container,
+.products-grid {
+  @extend %products-grid;
+}

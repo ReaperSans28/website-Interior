@@ -1,0 +1,76 @@
+.hero-container {
+  padding-top: 63px;
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-top: 40px;
+  }
+}
+
+.hero {
+  max-width: 800px;
+
+  @media (max-width: $tablet-breakpoint) {
+    max-width: 600px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+.hero__title {
+  font-weight: $weight-semibold;
+  font-size: $font-size-h1;
+  line-height: $line-height-h1;
+  margin-bottom: 16px;
+  color: $white;
+
+  @media (max-width: $tablet-breakpoint) {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 12px;
+  }
+}
+
+.hero__subtitle {
+  font-size: $font-size-hero-subtitle;
+  line-height: $line-height-hero-subtitle;
+  margin-bottom: 16px;
+  color: $white;
+
+  @media (max-width: $tablet-breakpoint) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+}
+
+.hero__link {
+  font-size: $font-size-base;
+  line-height: 24px;
+  color: $white;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &:hover {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+  }
+}

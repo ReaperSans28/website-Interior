@@ -1,0 +1,55 @@
+.catalog {
+  padding: $section-padding;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: $tablet-breakpoint) {
+    padding: 40px 0;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    padding: 30px 0;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    @extend %section-title;
+    align-self: flex-start;
+    width: 100%;
+
+    @media (max-width: $mobile-breakpoint) {
+      font-size: 32px;
+      line-height: 40px;
+      margin-bottom: 24px;
+    }
+  }
+
+  &-link {
+    @extend %underlined-link;
+    margin-top: 31px;
+    display: block;
+    text-align: left;
+    width: 100%;
+
+    @media (max-width: $tablet-breakpoint) {
+      margin-top: 24px;
+      font-size: 14px;
+    }
+
+    @media (max-width: $mobile-breakpoint) {
+      margin-top: 16px;
+      font-size: 12px;
+    }
+
+    &:hover {
+      text-decoration-thickness: 2px;
+      text-underline-offset: 6px;
+    }
+  }
+}
