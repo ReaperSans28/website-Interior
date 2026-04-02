@@ -1,16 +1,8 @@
 .footer {
-  padding: $section-padding;
+  padding: 32px 0;
   background-color: $gray-bg;
   display: flex;
   justify-content: center;
-
-  @media (max-width: $tablet-breakpoint) {
-    padding: 40px 0;
-  }
-
-  @media (max-width: $mobile-breakpoint) {
-    padding: 30px 0;
-  }
 }
 
 .footer-content {
@@ -26,6 +18,10 @@
 
 .footer-logo {
   @media (max-width: $tablet-breakpoint) {
+    display: none;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
     display: none;
   }
 }
@@ -122,7 +118,7 @@
 }
 
 .newsletter-form__text {
-  font-size: $font-size-small;
+  font-size: 12px;
   line-height: 16px;
   margin-bottom: 16px;
 }
@@ -134,7 +130,7 @@
   font-size: 15px;
   line-height: 18px;
   color: $border-gray;
-  padding: 12px 20px;
+  padding: 10px 20px;
   width: 100%;
   margin-bottom: 12px;
 }
