@@ -114,11 +114,6 @@
     display: flex;
     gap: 15px;
     align-items: baseline;
-    margin-top: 20px;
-
-    @media (max-width: $mobile-breakpoint) {
-      margin-top: 16px;
-    }
   }
 
   &__price--current {

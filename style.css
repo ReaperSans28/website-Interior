@@ -117,11 +117,11 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  padding-bottom: 63px;
+  padding-bottom: 374px;
 }
 @media (max-width: 767px) {
   .background-container {
-    padding-bottom: 40px;
+    padding-bottom: 359px;
   }
 }
 
@@ -633,12 +633,6 @@ button {
   display: flex;
   gap: 15px;
   align-items: baseline;
-  margin-top: 20px;
-}
-@media (max-width: 767px) {
-  .product-card__prices {
-    margin-top: 16px;
-  }
 }
 .product-card__price--current, .product-card__price--old {
   font-weight: 500;
@@ -834,7 +828,7 @@ button {
   }
 }
 .catalog-link {
-  margin-top: 31px;
+  margin-top: 60px;
   display: block;
   text-align: left;
   width: 100%;
@@ -1319,17 +1313,7 @@ button {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  min-height: 60vh;
-}
-@media (max-width: 1024px) {
-  .cart-page .background-container {
-    min-height: 50vh;
-  }
-}
-@media (max-width: 767px) {
-  .cart-page .background-container {
-    min-height: 40vh;
-  }
+  padding-bottom: 126px;
 }
 
 .cart-page .hero__title {
@@ -1612,8 +1596,6 @@ button {
   }
 }
 .cart-controls__button {
-  width: 200px;
-  height: 37px;
   border: 1px solid #000;
   border-radius: 50px;
   background: transparent;
@@ -1624,6 +1606,8 @@ button {
   text-align: center;
   color: #000;
   cursor: pointer;
+  padding: 10px 11px;
+  display: flex;
 }
 .cart-controls__button:hover {
   background-color: #F7F6F6;
@@ -1632,13 +1616,11 @@ button {
 @media (max-width: 1024px) {
   .cart-controls__button {
     flex: 1;
-    height: 40px;
   }
 }
 @media (max-width: 767px) {
   .cart-controls__button {
     flex: 1;
-    height: 40px;
     font-size: 14px;
     width: 100%;
   }
@@ -1764,17 +1746,7 @@ button {
 
 .catalog-page .background-container {
   background-image: url("img/catalog_background.jpg");
-  min-height: 60vh;
-}
-@media (max-width: 1024px) {
-  .catalog-page .background-container {
-    min-height: 50vh;
-  }
-}
-@media (max-width: 767px) {
-  .catalog-page .background-container {
-    min-height: 40vh;
-  }
+  padding-bottom: 126px;
 }
 
 .hero__title {
